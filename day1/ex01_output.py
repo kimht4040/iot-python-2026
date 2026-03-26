@@ -1,0 +1,6 @@
+name = input('이름 > ')
+age = input('나이 > ')
+age = int(age)
+print(name, age+1)
+print(type(name))
+print(type(age))
