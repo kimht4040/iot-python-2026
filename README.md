@@ -191,7 +191,7 @@
 - csv
   - 엑셀과 호환가능한 텍스트파일
   - 파일이 많으면 한줄씩 나눠서 읽어야함
-  - 
+ 
 - json
   - javascript object notation : 자바스크립트에서 데이터를 사용하기 위해 만든  표기방법
   - 딕셔너리를 텍스트화
@@ -313,3 +313,24 @@
 - OpenCV 간단 이미지 에디터 - [소스](day5/ex27_editor.py)
   - 실행화면
   - ![alt text](image-2.png)
+
+
+## 6일차
+### opencv
+- 카메라 사용
+- 얼굴 및 입모양, 모자이크
+- qr인식 및 브라우저 띄우기
+#### 웹캠 사용
+- cap = cv2.VideoCapture(카메라 번호)
+  - 카메라 번호로 사용할 카메라 선택
+  - cap은 카메라와 연결하는 객체
+- ret, img = cap.read() 
+  - ret은 정보 가져오기 성공 여부(true, false)
+  - img는 지금 순간의 이미지 정보
+#### 얼굴 인식
+- opencv 제공 라이브러리 사용
+  - haarcascade_frontalface_default.xml
+  - haarcascade_eye_tree_eyeglasses.xml
+  - haarcascade_eye.xml
+  - haarcascade_smile.xml
+  - haarcascade_frontalcatface_extended.xml
