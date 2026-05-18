@@ -334,3 +334,33 @@
   - haarcascade_eye.xml
   - haarcascade_smile.xml
   - haarcascade_frontalcatface_extended.xml
+
+
+
+## 7일차
+### 가상환경 실행 
+- 생성한 가상환경 내에 Scripts 폴더 안, Activate.ps1 실행해야 가상환경 준비
+- source {이름}/bin/activate
+
+
+
+### 머신러닝 딥러닝
+- 머신러닝 - 스스로 패턴을 학습하여 예측 및 의사결정을 하도록하는 분야
+- 딥러닝 - 인간과 유사한 인공신경망으로 패턴을 학습, 음성인식, 번역, 자율주행 등 다양한 분야에서 사용되는 머신러닝의 한 갈래
+
+
+### 딥로닝 프레임워크 종류
+- pytorch : 가장 인기가 많은 딥러닝 fw, 연구 , ai 서비스, llm 등 
+- tensorflow : 구글이 개발, 산업용 tpu
+- keras : 교육용
+
+
+#### 파이토치
+- 코드가 직관적이고, 디버깅이 쉬움
+
+- 설치방법
+  - 가상환경 활성화 후 설치 명령어 입력
+    - 쿠다, mps, cpu 등 여러버전 존재
+      - 자신의 사양에 맞는 버전으로 설치
+
+
