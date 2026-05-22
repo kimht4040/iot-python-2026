@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/1ec702ff-eb7f-4ac1-afb5-6f0aa9a289be
+
+
+
 # iot-python-2026
 파이썬 학습 리포지토리
 
@@ -395,4 +401,8 @@
 ## 11일차
 
 ### YOLO 객체탐지
+
+
+https://github.com/user-attachments/assets/0f2d8929-5015-40f7-b4e8-71c8635b5492
+
 
