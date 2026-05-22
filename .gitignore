@@ -144,6 +144,19 @@ ENV/
 env.bak/
 venv.bak/
 
+
+# 이미지
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# 모델 파일
+*.pt
+*.pth
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
